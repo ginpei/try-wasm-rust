@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "cp -r ../pkg/ . && npx @ginpei/http"
+  },
+  "devDependencies": {
+    "@ginpei/http": "^1.0.1"
+  }
+}
