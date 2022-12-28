@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "esbuild src/main.js --bundle --outfile=www/bundle.js"
+  },
+  "dependencies": {
+    "hello-wasm": "*"
+  },
+  "devDependencies": {
+    "@ginpei/http": "^1.0.1",
+    "esbuild": "^0.16.11"
+  }
+}
